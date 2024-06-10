@@ -8,7 +8,6 @@ Este é um sistema simples para registrar clientes em um website de comércio el
 - Express.js
 - MongoDB
 - Mongoose
-- CPF Validator
 
 ## Configuração
 
