@@ -1,0 +1,54 @@
+# Sistema de Registro de Clientes
+
+Este é um sistema simples para registrar clientes em um website de comércio eletrônico. Ele fornece uma API para criar, atualizar e buscar clientes.
+
+## Tecnologias Utilizadas
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- CPF Validator
+
+## Configuração
+
+Certifique-se de ter o Node.js e o MongoDB instalados em sua máquina.
+
+1. Clone o repositório:
+
+git clone https://github.com/luisfelipegil/client-api
+
+
+2. Instale as dependências:
+
+npm install
+
+
+3. Execute o servidor:
+
+npm start
+
+
+O servidor estará em execução em `http://localhost:3000`.
+
+## Endpoints da API
+
+- `POST /clientes`: Cria um novo cliente. Requer um corpo JSON com os seguintes campos: CPF, nome, email, estado civil, endereço e números de telefone.
+- `GET /clientes/:cpf`: Obtém informações de um cliente pelo CPF.
+- `PUT /clientes/:cpf`: Atualiza as informações de um cliente pelo CPF.
+
+Certifique-se de fornecer um CPF válido e todos os campos obrigatórios ao criar ou atualizar um cliente.
+
+## Como Testar a API
+
+Você pode testar a API usando o Insomnia ou qualquer outra ferramenta de teste de API. Aqui estão algumas instruções básicas para testar com o Insomnia:
+
+1. Abra o Insomnia e crie uma nova requisição.
+2. Escolha o método HTTP desejado (POST, GET, PUT) e insira a URL correspondente ao endpoint que deseja testar.
+3. Adicione os parâmetros necessários no corpo da requisição no formato JSON.
+4. Envie a requisição e verifique a resposta do servidor.
+
+## Autor
+
+Luis Felipe
+Luis.felipe1995@yahoo.com

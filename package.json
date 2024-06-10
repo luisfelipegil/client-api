@@ -1,0 +1,27 @@
+{
+  "name": "sistema-registro-clientes",
+  "version": "1.0.0",
+  "description": "Sistema de Registro de Clientes para um website de comércio eletrônico",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "sistema",
+    "registro",
+    "clientes",
+    "ecommerce",
+    "api",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "Luis Felipe",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18"
+  }
+}
+
